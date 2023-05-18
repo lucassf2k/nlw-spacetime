@@ -1,0 +1,29 @@
+{
+  "name": "api-spacetime",
+  "version": "1.0.0",
+  "author": {
+    "email": "lucassilved@gmail.com",
+    "name": "lucassf2k"
+  },
+  "main": "src/application.ts",
+  "scripts": {
+    "start:dev": "tsx watch .",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.40.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "prisma": "^4.14.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@prisma/client": "4.14.1",
+    "fastify": "^4.17.0"
+  }
+}
